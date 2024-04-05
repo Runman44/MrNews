@@ -1,0 +1,94 @@
+package nl.mranderson.mrnews.ui.theme.olympic
+import androidx.compose.ui.graphics.Color
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicBackground
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicError
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicErrorContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicInverseOnSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicInversePrimary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicInverseSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnBackground
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnError
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnErrorContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnPrimary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnPrimaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnSecondary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnSecondaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnSurfaceVariant
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnTertiary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOnTertiaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOutline
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicOutlineVariant
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicPrimary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicPrimaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicScrim
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicSecondary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicSecondaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicShadow
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicSurfaceTint
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicSurfaceVariant
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicTertiary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkOlympicTertiaryContainer
+
+val md_theme_light_primary = Color(0xFF7D39C5)
+val md_theme_light_onPrimary = Color(0xFFFFFFFF)
+val md_theme_light_primaryContainer = Color(0xFFEFDBFF)
+val md_theme_light_onPrimaryContainer = Color(0xFF2B0052)
+val md_theme_light_secondary = Color(0xFF655A6F)
+val md_theme_light_onSecondary = Color(0xFFFFFFFF)
+val md_theme_light_secondaryContainer = Color(0xFFECDDF6)
+val md_theme_light_onSecondaryContainer = Color(0xFF20182A)
+val md_theme_light_tertiary = Color(0xFF805159)
+val md_theme_light_onTertiary = Color(0xFFFFFFFF)
+val md_theme_light_tertiaryContainer = Color(0xFFFFD9DD)
+val md_theme_light_onTertiaryContainer = Color(0xFF321017)
+val md_theme_light_error = Color(0xFFBA1A1A)
+val md_theme_light_errorContainer = Color(0xFFFFDAD6)
+val md_theme_light_onError = Color(0xFFFFFFFF)
+val md_theme_light_onErrorContainer = Color(0xFF410002)
+val md_theme_light_background = Color(0xFFFFFBFF)
+val md_theme_light_onBackground = Color(0xFF1D1B1E)
+val md_theme_light_surface = Color(0xFFFFFBFF)
+val md_theme_light_onSurface = Color(0xFF1D1B1E)
+val md_theme_light_surfaceVariant = Color(0xFFE9E0EB)
+val md_theme_light_onSurfaceVariant = Color(0xFF4A454E)
+val md_theme_light_outline = Color(0xFF7B757F)
+val md_theme_light_inverseOnSurface = Color(0xFFF5EFF4)
+val md_theme_light_inverseSurface = Color(0xFF322F33)
+val md_theme_light_inversePrimary = Color(0xFFDBB8FF)
+val md_theme_light_shadow = Color(0xFF000000)
+val md_theme_light_surfaceTint = Color(0xFF7D39C5)
+val md_theme_light_outlineVariant = Color(0xFFCCC4CF)
+val md_theme_light_scrim = Color(0xFF000000)
+
+val md_theme_dark_background = colorDarkOlympicBackground
+val md_theme_dark_error = colorDarkOlympicError
+val md_theme_dark_errorContainer = colorDarkOlympicErrorContainer
+val md_theme_dark_inverseOnSurface = colorDarkOlympicInverseOnSurface
+val md_theme_dark_inversePrimary = colorDarkOlympicInversePrimary
+val md_theme_dark_inverseSurface = colorDarkOlympicInverseSurface
+val md_theme_dark_onBackground = colorDarkOlympicOnBackground
+val md_theme_dark_onError = colorDarkOlympicOnError
+val md_theme_dark_onErrorContainer = colorDarkOlympicOnErrorContainer
+val md_theme_dark_onPrimary = colorDarkOlympicOnPrimary
+val md_theme_dark_onPrimaryContainer = colorDarkOlympicOnPrimaryContainer
+val md_theme_dark_onSecondary = colorDarkOlympicOnSecondary
+val md_theme_dark_onSecondaryContainer = colorDarkOlympicOnSecondaryContainer
+val md_theme_dark_onSurface = colorDarkOlympicOnSurface
+val md_theme_dark_onSurfaceVariant = colorDarkOlympicOnSurfaceVariant
+val md_theme_dark_onTertiary = colorDarkOlympicOnTertiary
+val md_theme_dark_onTertiaryContainer = colorDarkOlympicOnTertiaryContainer
+val md_theme_dark_outline = colorDarkOlympicOutline
+val md_theme_dark_outlineVariant = colorDarkOlympicOutlineVariant
+val md_theme_dark_primary = colorDarkOlympicPrimary
+val md_theme_dark_primaryContainer = colorDarkOlympicPrimaryContainer
+val md_theme_dark_scrim = colorDarkOlympicScrim
+val md_theme_dark_secondary = colorDarkOlympicSecondary
+val md_theme_dark_secondaryContainer = colorDarkOlympicSecondaryContainer
+val md_theme_dark_shadow = colorDarkOlympicShadow
+val md_theme_dark_surface = colorDarkOlympicSurface
+val md_theme_dark_surfaceTint = colorDarkOlympicSurfaceTint
+val md_theme_dark_surfaceVariant = colorDarkOlympicSurfaceVariant
+val md_theme_dark_tertiary = colorDarkOlympicTertiary
+val md_theme_dark_tertiaryContainer = colorDarkOlympicTertiaryContainer

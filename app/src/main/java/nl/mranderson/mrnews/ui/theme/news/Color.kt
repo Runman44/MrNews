@@ -1,0 +1,94 @@
+package nl.mranderson.mrnews.ui.theme.news
+import androidx.compose.ui.graphics.Color
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsBackground
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsError
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsErrorContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsInverseOnSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsInversePrimary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsInverseSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnBackground
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnError
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnErrorContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnPrimary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnPrimaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnSecondary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnSecondaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnSurfaceVariant
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnTertiary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOnTertiaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOutline
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsOutlineVariant
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsPrimary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsPrimaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsScrim
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsSecondary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsSecondaryContainer
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsShadow
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsSurface
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsSurfaceTint
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsSurfaceVariant
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsTertiary
+import fushion.fundamentals.token.FushionDarkColor.colorDarkNewsTertiaryContainer
+
+val md_theme_light_primary = Color(0xFF006874)
+val md_theme_light_onPrimary = Color(0xFFFFFFFF)
+val md_theme_light_primaryContainer = Color(0xFF97F0FF)
+val md_theme_light_onPrimaryContainer = Color(0xFF001F24)
+val md_theme_light_secondary = Color(0xFF4A6267)
+val md_theme_light_onSecondary = Color(0xFFFFFFFF)
+val md_theme_light_secondaryContainer = Color(0xFFCDE7EC)
+val md_theme_light_onSecondaryContainer = Color(0xFF051F23)
+val md_theme_light_tertiary = Color(0xFF525E7D)
+val md_theme_light_onTertiary = Color(0xFFFFFFFF)
+val md_theme_light_tertiaryContainer = Color(0xFFDAE2FF)
+val md_theme_light_onTertiaryContainer = Color(0xFF0E1B37)
+val md_theme_light_error = Color(0xFFBA1A1A)
+val md_theme_light_errorContainer = Color(0xFFFFDAD6)
+val md_theme_light_onError = Color(0xFFFFFFFF)
+val md_theme_light_onErrorContainer = Color(0xFF410002)
+val md_theme_light_background = Color(0xFFFAFDFD)
+val md_theme_light_onBackground = Color(0xFF191C1D)
+val md_theme_light_surface = Color(0xFFFAFDFD)
+val md_theme_light_onSurface = Color(0xFF191C1D)
+val md_theme_light_surfaceVariant = Color(0xFFDBE4E6)
+val md_theme_light_onSurfaceVariant = Color(0xFF3F484A)
+val md_theme_light_outline = Color(0xFF6F797A)
+val md_theme_light_inverseOnSurface = Color(0xFFEFF1F1)
+val md_theme_light_inverseSurface = Color(0xFF2E3132)
+val md_theme_light_inversePrimary = Color(0xFF4FD8EB)
+val md_theme_light_shadow = Color(0xFF000000)
+val md_theme_light_surfaceTint = Color(0xFF006874)
+val md_theme_light_outlineVariant = Color(0xFFBFC8CA)
+val md_theme_light_scrim = Color(0xFF000000)
+
+val md_theme_dark_background = colorDarkNewsBackground
+val md_theme_dark_error = colorDarkNewsError
+val md_theme_dark_errorContainer = colorDarkNewsErrorContainer
+val md_theme_dark_inverseOnSurface = colorDarkNewsInverseOnSurface
+val md_theme_dark_inversePrimary = colorDarkNewsInversePrimary
+val md_theme_dark_inverseSurface = colorDarkNewsInverseSurface
+val md_theme_dark_onBackground = colorDarkNewsOnBackground
+val md_theme_dark_onError = colorDarkNewsOnError
+val md_theme_dark_onErrorContainer = colorDarkNewsOnErrorContainer
+val md_theme_dark_onPrimary = colorDarkNewsOnPrimary
+val md_theme_dark_onPrimaryContainer = colorDarkNewsOnPrimaryContainer
+val md_theme_dark_onSecondary = colorDarkNewsOnSecondary
+val md_theme_dark_onSecondaryContainer = colorDarkNewsOnSecondaryContainer
+val md_theme_dark_onSurface = colorDarkNewsOnSurface
+val md_theme_dark_onSurfaceVariant = colorDarkNewsOnSurfaceVariant
+val md_theme_dark_onTertiary = colorDarkNewsOnTertiary
+val md_theme_dark_onTertiaryContainer = colorDarkNewsOnTertiaryContainer
+val md_theme_dark_outline = colorDarkNewsOutline
+val md_theme_dark_outlineVariant = colorDarkNewsOutlineVariant
+val md_theme_dark_primary = colorDarkNewsPrimary
+val md_theme_dark_primaryContainer = colorDarkNewsPrimaryContainer
+val md_theme_dark_scrim = colorDarkNewsScrim
+val md_theme_dark_secondary = colorDarkNewsSecondary
+val md_theme_dark_secondaryContainer = colorDarkNewsSecondaryContainer
+val md_theme_dark_shadow = colorDarkNewsShadow
+val md_theme_dark_surface = colorDarkNewsSurface
+val md_theme_dark_surfaceTint = colorDarkNewsSurfaceTint
+val md_theme_dark_surfaceVariant = colorDarkNewsSurfaceVariant
+val md_theme_dark_tertiary = colorDarkNewsTertiary
+val md_theme_dark_tertiaryContainer = colorDarkNewsTertiaryContainer
